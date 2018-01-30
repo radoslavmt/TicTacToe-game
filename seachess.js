@@ -35,7 +35,7 @@ for (let i = 0; i < square.length; i++) {
         square[i].innerText = "";
         msg.innerText = "Да започваме!";
         turn = 0;
-    },false);
+    }, false);
 
     function checkWinner() {
         winner = null;
